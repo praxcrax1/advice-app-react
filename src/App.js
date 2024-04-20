@@ -27,15 +27,16 @@ export class App extends Component {
   render() {
     const {advice} = this.state
     return (
-      <div className='app'>
-        <div className='card'>
-            <h1 className='heading'>{advice}</h1>
-            <button className='button' onClick={this.fetchAdvice}>
-                <span>GIVE ME AN ADVICE!</span>
-            </button>
+      <div className="app">
+        <h1 className='header'>GET AN ADVICE FOR FREE</h1>
+        <div className="card">
+          <h1 className="heading">{advice}</h1>
+          <button className="button" onClick={this.fetchAdvice}>
+            <span>GIVE ME AN ADVICE!</span>
+          </button>
         </div>
       </div>
-    )
+    );
   }
 }
 
