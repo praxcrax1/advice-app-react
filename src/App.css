@@ -128,6 +128,12 @@
 }
 @media screen and (max-width: 400px) {
     .header{
-      font-size: small;
+      font-size: 17px;
     }
+    .heading{
+      font-size: small;   
+     }
+     .button{
+      transform: scale(0.6);
+     }
 }
